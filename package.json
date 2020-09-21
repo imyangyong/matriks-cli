@@ -1,0 +1,27 @@
+{
+  "name": "matriks-cli",
+  "version": "0.0.1",
+  "description": "matriks for matriks seed system",
+  "main": "index.js",
+  "bin": {
+    "matriks": "bin/matriks.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngusYang9/matriks-cli"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.1.2",
+    "commander": "2.9.0",
+    "copy-dir": "0.3.0",
+    "delete": "0.3.2",
+    "lodash": "4.16.6",
+    "md5": "2.2.1",
+    "shell-promise": "1.0.0"
+  }
+}
