@@ -42,10 +42,10 @@ var utils = require('../lib/backend-utils/utils')
 //         })
 //     })
 
-// commander.command('version')
-//     .action(function() {
-//         require('../lib/command-version').execute()
-//     })
+commander.command('version')
+    .action(function() {
+        require('../lib/command-version').execute()
+    })
 //
 // commander.command('list-theme [remote]')
 //     .option('-d, --debug')
